@@ -15,7 +15,12 @@
         <div class="nav-brand">
             <i class="fa-solid fa-anchor"></i> MKZ
         </div>
-        <ul class="nav-links">
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#filosofia">Filosofia</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
@@ -36,13 +41,13 @@
                     <div class="stat-item">
                         <i class="fa-solid fa-users stat-icon"></i>
                         <span class="stat-number">+50k</span>
-                        <span class="stat-label">Membros Apoiados</span>
+                        <span class="stat-label">Membros</span>
                     </div>
                     <div class="stat-divider"></div>
                     <div class="stat-item">
                         <i class="fa-solid fa-handshake-angle stat-icon"></i>
                         <span class="stat-number">Ativo</span>
-                        <span class="stat-label">Suporte Diário</span>
+                        <span class="stat-label">Suporte</span>
                     </div>
                 </div>
             </div>
@@ -60,7 +65,7 @@
                 <h2 class="section-title"><i class="fa-solid fa-compass"></i> Minha Filosofia</h2>
                 <div class="content-box glass-dark relative-box">
                     <i class="fa-solid fa-quote-left quote-icon"></i>
-                    <p>A verdadeira força de uma comunidade está nos laços entre seus membros. Minha função não é ser o centro das atenções, mas sim o alicerce que mantém tudo de pé. Assim como um bom capitão zela por sua tripulação, eu trabalho nos bastidores para garantir que as regras existam para proteger, não para oprimir, cultivando um espaço amigável e respeitoso para todos.</p>
+                    <p>A verdadeira força de uma comunidade está nos laços entre seus membros. Minha função não é ser o centro das atenções, mas sim o alicerce que mantém tudo de pé. Assim como um bom capitão zela por sua tripulação, eu trabalho nos bastidores para garantir que as regras existam para proteger, não para oprimir.</p>
                 </div>
             </section>
 
@@ -86,9 +91,8 @@
             </section>
 
             <section id="comunidades" class="section-experience margin-top-large">
-                <h2 class="section-title"><i class="fa-solid fa-map-location-dot"></i> Comunidades que Apoio</h2>
+                <h2 class="section-title"><i class="fa-solid fa-map-location-dot"></i> Comunidades</h2>
                 <div class="server-grid">
-                    
                     <div class="server-card glass-dark">
                         <div class="server-banner">
                             <img src="assets/ac.png" alt="Anime Crash">
@@ -96,13 +100,9 @@
                         </div>
                         <div class="server-info">
                             <h3>Anime Crash</h3>
-                            <p>Uma comunidade vibrante onde auxilio na gestão da equipe e na criação de eventos para engajar o pessoal.</p>
-                            <a href="https://discord.gg/FsnecYePQw" target="_blank" class="btn-server-link">
-                                Visitar Servidor <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <a href="https://discord.gg/FsnecYePQw" target="_blank" class="btn-server-link">Visitar Servidor <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-
                     <div class="server-card glass-dark">
                         <div class="server-banner">
                             <img src="assets/anime omega.png" alt="Anime Omega">
@@ -110,13 +110,9 @@
                         </div>
                         <div class="server-info">
                             <h3>Anime Omega</h3>
-                            <p>Foco em receber novos membros com carinho, esclarecer dúvidas e manter os canais limpos e organizados.</p>
-                            <a href="https://discord.gg/khbg6mMU8s" target="_blank" class="btn-server-link">
-                                Visitar Servidor <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <a href="https://discord.gg/khbg6mMU8s" target="_blank" class="btn-server-link">Visitar Servidor <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-
                     <div class="server-card glass-dark">
                         <div class="server-banner">
                             <img src="assets/zero to hero.gif" alt="Zero to Hero">
@@ -124,13 +120,9 @@
                         </div>
                         <div class="server-info">
                             <h3>Zero to Hero</h3>
-                            <p>Suporte direto à moderação e auxílio técnico em sistemas de automação e segurança.</p>
-                            <a href="https://discord.gg/zth" target="_blank" class="btn-server-link">
-                                Visitar Servidor <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <a href="https://discord.gg/zth" target="_blank" class="btn-server-link">Visitar Servidor <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-
                     <div class="server-card glass-dark">
                         <div class="server-banner">
                             <img src="assets/hu.png" alt="Hunter X Universe">
@@ -138,36 +130,28 @@
                         </div>
                         <div class="server-info">
                             <h3>Hunter X Universe</h3>
-                            <p>Monitoramento constante para garantir um ambiente saudável e livre de spam para todos os navegantes.</p>
-                            <a href="https://discord.gg/FScY7bm3py" target="_blank" class="btn-server-link">
-                                Visitar Servidor <i class="fa-solid fa-arrow-right"></i>
-                            </a>
+                            <a href="https://discord.gg/FScY7bm3py" target="_blank" class="btn-server-link">Visitar Servidor <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-
                 </div>
             </section>
+
         </main>
 
         <footer class="cta-footer margin-top-large glass-dark">
             <div class="footer-content">
                 <h2>Procurando um companheiro para a sua equipe?</h2>
-                <p>Mande uma mensagem! Adoraria conversar sobre como podemos melhorar o seu servidor juntos.</p>
-                <a href="https://discord.com/users/804144722280579082" target="_blank" class="btn-gold-premium glow-btn">
+                <a href="https://discord.com/users/804144722280579082" target="_blank" class="btn-gold-premium">
                     <i class="fa-brands fa-discord btn-icon"></i>
                     <span class="btn-text">Adicionar no Discord</span>
                 </a>
             </div>
         </footer>
 
-            <footer>
-        <div class="footer-bottom">
+        <footer class="footer-bottom">
             <h2 class="footer-brand">MKZ</h2>
-            <p>&copy; 2026 MKZ. <span data-pt="Todos os direitos reservados por The Dog." data-en="All rights reserved for The Dog.">Todos os direitos reservados por The Dog.</span></p>
-        </div>
-    </footer>
-
-
+            <p>&copy; 2026 MKZ. Todos os direitos reservados por The Dog.</p>
+        </footer>
     </div>
     <script src="script/main.js"></script>
 </body>
